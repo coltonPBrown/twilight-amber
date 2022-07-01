@@ -1,0 +1,122 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id":1,
+      "image": "../shared/images/bolt.jpg",
+      "name": "Bolt",
+      "sku": 1,
+      "description": "Deal 2 damage to target creature or player.",
+      "price": 2.0,
+      "category":"mtg",
+      "quantity":3
+    },
+    {
+      "id":2,
+      "image": "../shared/images/bolt.jpg",
+      "name": "Bolt 2",
+      "sku": 2,
+      "description": "Deal 2 damage to target creature or player.",
+      "price": 1.0,
+      "category":"mtg",
+      "quantity":2
+    },
+    {
+      "id":3,
+      "tags":["1"],
+      "image": "../../shared/images/bolt.jpg",
+      "name": "Bolt 3",
+      "sku": 3,
+      "description": "Deal 2 damage to target creature or player.",
+      "price": 3.99,
+      "category":"mtg",
+      "quantity":1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "description": "Magic the Gathering",
+      "category": "mtg"
+    },
+    {
+      "id": 2,
+      "description": "Yu-Gi-Oh!",
+      "category": "yugioh"
+    },
+    {
+      "id": 3,
+      "description": "Pokemon",
+      "category": "pokemon"
+    },
+    {
+      "id": 4,
+      "description": "Collectibles",
+      "category": "collectibles"
+    },
+    {
+      "id": 5,
+      "description": "Tabletop",
+      "category": "tabletop"
+    },
+    {
+      "id": 6,
+      "description": "Board Games",
+      "category": "boardgames"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1",
+      "categoryId": "1",
+      "tagId": "1",
+      "text": "Sealed Products"
+    },
+    {
+      "id": "2",
+      "categoryId": "1",
+      "tagId": "2",
+      "text": "Singles"
+    },
+    {
+      "id": "3",
+      "categoryId": "1",
+      "tagId": "3",
+      "text": "Collectors"
+    },
+    {
+      "id": "4",
+      "categoryId": "2",
+      "tagId": "1",
+      "text": "Tins"
+    },
+    {
+      "id": "5",
+      "categoryId": "2",
+      "tagId": "2",
+      "text": "Packs"
+    },
+    {
+      "id": "6",
+      "categoryId": "3",
+      "tagId": "1",
+      "text": "Sealed Products"
+    }
+  ]
+}
