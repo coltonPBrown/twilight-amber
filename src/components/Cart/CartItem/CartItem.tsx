@@ -6,7 +6,6 @@ import {
   CardMedia,
   Typography,
 } from "@material-ui/core";
-import { CardMembership } from "@material-ui/icons";
 import useStyles from "../styles";
 
 export default function CartItem({

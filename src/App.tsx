@@ -1,11 +1,12 @@
 import "./App.css";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import { Cart, NavBar, Products } from "./components";
 import { commerce } from "./lib/commerce";
 import { useEffect, useState } from "react";
+import Checkout from "./components/CheckoutForm/Checkout/Checkout";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -66,6 +67,7 @@ function App() {
                 />
               }
             />
+            <Route path="/checkout" element={<Checkout cart={cart} />} />
           </Routes>
         </main>
       </div>
