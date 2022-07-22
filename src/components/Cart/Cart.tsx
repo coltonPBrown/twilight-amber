@@ -20,7 +20,6 @@ export default function Cart({
       </Link>
     </Typography>
   );
-  console.log("Cart = " + cart);
   const FilledCart = () => (
     <>
       <Grid container spacing={3}>
